@@ -22,6 +22,7 @@ import { BlockTuneData } from '../../../types/block-tunes/block-tune-data';
 import ToolsCollection from '../tools/collection';
 import EventsDispatcher from '../utils/events';
 import { TunesMenuConfigItem } from '../../../types/tools';
+import { v4 as uuidv4 } from 'uuid';
 
 /**
  * Interface describes Block class constructor argument
@@ -249,7 +250,7 @@ export default class Block extends EventsDispatcher<BlockEvents> {
    * @param {boolean} options.readOnly - Read-Only flag
    */
   constructor({
-    id = _.generateBlockId(),
+    id,
     data,
     tool,
     api,
@@ -259,7 +260,7 @@ export default class Block extends EventsDispatcher<BlockEvents> {
     super();
 
     this.name = tool.name;
-    this.id = id;
+    this.id = id ?? uuidv4();
     this.settings = tool.settings;
     this.config = tool.settings.config || {};
     this.api = api;

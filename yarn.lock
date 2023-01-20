@@ -2074,13 +2074,9 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001332:
-  version "1.0.30001332"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001332.tgz#39476d3aa8d83ea76359c70302eafdd4a1d727dd"
-
-caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400:
-  version "1.0.30001434"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001434.tgz#ec1ec1cfb0a93a34a0600d37903853030520a4e5"
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001332, caniuse-lite@^1.0.30001400:
+  version "1.0.30001446"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz"
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -7762,6 +7758,11 @@ util@^0.11.0:
 uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache@^2.1.1, v8-compile-cache@^2.3.0:
   version "2.3.0"

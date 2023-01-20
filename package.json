@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "clear": "rimraf dist && mkdirp dist",
+    "prepare": "yarn ci:pull_paragraph",
     "build": "yarn clear && yarn build:webpack:prod",
     "build:dev": "yarn clear && yarn build:webpack:dev",
     "build:webpack:dev": "webpack --mode development --progress --display-error-details --display-entrypoints --watch",
@@ -98,6 +99,7 @@
     "codex-notifier": "^1.1.2",
     "codex-tooltip": "^1.0.5",
     "html-janitor": "^2.0.4",
-    "nanoid": "^3.1.22"
+    "nanoid": "^3.1.22",
+    "uuid": "^9.0.0"
   }
 }
